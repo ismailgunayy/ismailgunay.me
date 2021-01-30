@@ -3,6 +3,10 @@
         'Lucida Sans', Arial, sans-serif;
 }
 
+*::selection {
+    background-color: lightgray;
+}
+
 body {
     text-align: center;
     display: flex;
