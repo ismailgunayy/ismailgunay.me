@@ -43,7 +43,7 @@ a {
     animation: 2s linear 1s forwards fadeIn;
 }
 
-#contacts-header {
+#contact-header {
     opacity: 0;
     animation: 2s linear 2s forwards fadeIn;
 }
