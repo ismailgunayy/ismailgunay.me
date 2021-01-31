@@ -51,6 +51,7 @@ a {
 
 #links {
     opacity: 0;
+    pointer-events: none;
     animation: 2s linear 3s forwards fadeIn;
 }
 
@@ -64,6 +65,7 @@ a {
         opacity: 0;
     }
     to {
+        pointer-events: all;
         opacity: 1;
     }
 }
