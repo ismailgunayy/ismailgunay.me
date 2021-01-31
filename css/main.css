@@ -49,7 +49,7 @@ a {
     animation: 2s linear 2s forwards fadeIn;
 }
 
-#links {
+.links {
     opacity: 0;
     pointer-events: none;
     animation: 2s linear 3s forwards fadeIn;
