@@ -14,12 +14,6 @@ body {
     align-items: center;
     vertical-align: middle;
     height: 95vh;
-    animation: whenPageIsLoad 2s;
-}
-
-img {
-    width: 65%;
-    height: auto;
 }
 
 i {
@@ -37,7 +31,35 @@ a {
     color: black;
 }
 
-@keyframes whenPageIsLoad {
+#construction-header {
+    margin-top: 30px;
+    animation: 2s linear fadeIn;
+}
+
+#construction-image {
+    margin-top: 20px;
+    width: 65%;
+    height: auto;
+    opacity: 0;
+    animation: 2s linear 1s forwards fadeIn;
+}
+
+#contacts-header {
+    opacity: 0;
+    animation: 2s linear 2s forwards fadeIn;
+}
+
+#links {
+    opacity: 0;
+    animation: 2s linear 3s forwards fadeIn;
+}
+
+#name {
+    opacity: 0;
+    animation: 2s linear 4s forwards fadeIn;
+}
+
+@keyframes fadeIn {
     from {
         opacity: 0;
     }
