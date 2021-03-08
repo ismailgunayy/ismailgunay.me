@@ -46,19 +46,19 @@ a {
 
 #contact-header {
     opacity: 0;
-    animation: 2s linear 1.5s forwards fadeIn;
+    animation: 2s linear 1s forwards fadeIn;
     margin-bottom: 30px;
 }
 
 .links {
     opacity: 0;
     pointer-events: none;
-    animation: 2s linear 2.5s forwards fadeIn;
+    animation: 2s linear 1.5s forwards fadeIn;
 }
 
 #name {
     opacity: 0;
-    animation: 2s linear 3.5s forwards fadeIn;
+    animation: 2s linear 2s forwards fadeIn;
 }
 
 @keyframes fadeIn {
